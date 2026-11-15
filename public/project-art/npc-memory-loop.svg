@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" fill="none">
+  <defs>
+    <linearGradient id="panel" x1="20" y1="18" x2="614" y2="282" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#29231D"/>
+      <stop offset="1" stop-color="#111820"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="104" y1="78" x2="514" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4C68B"/>
+      <stop offset="1" stop-color="#D89162"/>
+    </linearGradient>
+    <filter id="glow" x="202" y="46" width="146" height="164" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="5.5" refY="3.5" orient="auto">
+      <path d="M1 1 5 3.5 1 6" stroke="#DDB27F" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="8" y="8" width="624" height="284" rx="22" fill="url(#panel)" stroke="#E8BE8A" stroke-opacity=".22"/>
+  <path d="M169 147h48m164 0h44" stroke="#DDB27F" stroke-opacity=".72" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M413 166c-34 34-71 39-106 28" stroke="#A8B5C8" stroke-opacity=".46" stroke-dasharray="4 5" marker-end="url(#arrow)"/>
+  <circle cx="288" cy="127" r="52" fill="#E0A970" fill-opacity=".26" filter="url(#glow)"/>
+  <rect x="28" y="91" width="140" height="112" rx="15" fill="#171C23" stroke="#E8BE8A" stroke-opacity=".3"/>
+  <text x="45" y="116" fill="#D6B38B" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.6">PLAYER INPUT</text>
+  <path d="M46 135h96a8 8 0 0 1 8 8v22a8 8 0 0 1-8 8H83l-12 9v-9H46a8 8 0 0 1-8-8v-22a8 8 0 0 1 8-8Z" fill="#252B33" stroke="#9D846C" stroke-opacity=".5"/>
+  <path d="M56 148h56M56 158h39" stroke="#E7D7C2" stroke-opacity=".56" stroke-linecap="round"/>
+  <text x="39" y="224" fill="#8993A1" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.2">INTENT CLASSIFICATION</text>
+  <circle cx="288" cy="127" r="46" fill="#171B20" stroke="url(#accent)" stroke-opacity=".76"/>
+  <circle cx="288" cy="113" r="12" fill="#DDB27F" fill-opacity=".86"/>
+  <path d="M262 157c2-17 12-27 26-27s24 10 26 27" stroke="#E8BE8A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M248 127c4-26 20-42 40-42s36 16 40 42M254 160c10 14 21 21 34 21s24-7 34-21" stroke="#E8BE8A" stroke-opacity=".42" stroke-linecap="round"/>
+  <text x="262" y="204" fill="#F2D1A8" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5">NPC PERSONA</text>
+  <rect x="427" y="74" width="182" height="142" rx="15" fill="#171C23" stroke="#E8BE8A" stroke-opacity=".3"/>
+  <text x="445" y="99" fill="#D6B38B" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5">PERSISTENT STATE</text>
+  <rect x="445" y="113" width="146" height="36" rx="8" fill="#242A31" stroke="#B48761" stroke-opacity=".4"/>
+  <circle cx="460" cy="131" r="4" fill="#E6B476"/>
+  <text x="473" y="134" fill="#E5DFD5" font-family="Arial,sans-serif" font-size="10">Mood · facts · rules</text>
+  <rect x="445" y="158" width="146" height="36" rx="8" fill="#242A31" stroke="#B48761" stroke-opacity=".4"/>
+  <circle cx="460" cy="176" r="4" fill="#D8976F"/>
+  <text x="473" y="179" fill="#E5DFD5" font-family="Arial,sans-serif" font-size="10">Retrieved memories</text>
+  <text x="445" y="207" fill="#8E9BA8" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.1">SQLITE + CHROMADB</text>
+  <rect x="187" y="244" width="266" height="24" rx="12" fill="#DFA66F" fill-opacity=".1" stroke="#DFA66F" stroke-opacity=".28"/>
+  <text x="320" y="260" text-anchor="middle" fill="#E8C9A6" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.4">CONTEXTUAL DIALOGUE RESPONSE</text>
+</svg>

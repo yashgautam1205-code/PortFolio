@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" fill="none">
+  <defs>
+    <linearGradient id="panel" x1="20" y1="18" x2="614" y2="282" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171A2A"/>
+      <stop offset="1" stop-color="#10131C"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="272" y1="57" x2="365" y2="207" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9298FF"/>
+      <stop offset="1" stop-color="#47C8D7"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="62" y1="119" x2="197" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68D7E8" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#68D7E8"/>
+      <stop offset="1" stop-color="#68D7E8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="244" y="37" width="147" height="190" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="5.5" refY="3.5" orient="auto">
+      <path d="M1 1 5 3.5 1 6" stroke="#8DBDDC" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="8" y="8" width="624" height="284" rx="22" fill="url(#panel)" stroke="#A8B5FF" stroke-opacity=".22"/>
+  <path d="M192 144h47m161 0h31" stroke="#8DBDDC" stroke-opacity=".72" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="27" y="61" width="166" height="169" rx="14" fill="#141A24" stroke="#8ABBD0" stroke-opacity=".3"/>
+  <text x="44" y="85" fill="#91B6CA" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.5">CONTENT REVIEW</text>
+  <rect x="42" y="98" width="136" height="115" rx="8" fill="#1C2431" stroke="#8091BC" stroke-opacity=".24"/>
+  <rect x="54" y="111" width="65" height="5" rx="2.5" fill="#BFC7E4" fill-opacity=".72"/>
+  <rect x="54" y="124" width="110" height="3" rx="1.5" fill="#8D99B1" fill-opacity=".48"/>
+  <rect x="54" y="133" width="93" height="3" rx="1.5" fill="#8D99B1" fill-opacity=".36"/>
+  <rect x="54" y="149" width="107" height="3" rx="1.5" fill="#8D99B1" fill-opacity=".42"/>
+  <rect x="54" y="158" width="78" height="3" rx="1.5" fill="#8D99B1" fill-opacity=".32"/>
+  <rect x="54" y="174" width="87" height="17" rx="5" fill="#332E55" stroke="#A99BFF" stroke-opacity=".45"/>
+  <circle cx="64" cy="182.5" r="3" fill="#B8AAFF"/>
+  <rect x="72" y="181" width="58" height="3" rx="1.5" fill="#C5C1F0" fill-opacity=".62"/>
+  <path d="M42 120h136" stroke="url(#scan)" stroke-width="2"/>
+  <text x="45" y="222" fill="#78899C" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.1">RULE-BASED FINDINGS</text>
+  <circle cx="319" cy="131" r="62" fill="#7484FF" fill-opacity=".28" filter="url(#glow)"/>
+  <path d="M319 55 378 78v49c0 41-24 65-59 83-35-18-59-42-59-83V78l59-23Z" fill="#171D2C" stroke="url(#shield)" stroke-width="2"/>
+  <path d="M319 70 365 88v39c0 31-17 50-46 66-29-16-46-35-46-66V88l46-18Z" stroke="#A5B5FF" stroke-opacity=".38"/>
+  <path d="m295 129 16 16 32-37" stroke="#80DCE0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="319" cy="108" r="5" fill="#C5C2FF"/>
+  <text x="319" y="224" text-anchor="middle" fill="#C4D7F2" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.4">BRAND GOVERNANCE</text>
+  <rect x="430" y="54" width="180" height="176" rx="14" fill="#141A24" stroke="#8ABBD0" stroke-opacity=".3"/>
+  <text x="447" y="78" fill="#91B6CA" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.4">APPROVED IDENTITY</text>
+  <rect x="447" y="92" width="146" height="59" rx="8" fill="#1C2431" stroke="#8091BC" stroke-opacity=".24"/>
+  <path d="M462 106h22l7 8-7 8h-22l-7-8 7-8Z" fill="#6876D8" fill-opacity=".64" stroke="#A8B5FF" stroke-opacity=".62"/>
+  <text x="501" y="120" fill="#DADEEF" font-family="Georgia,serif" font-size="19">Aa</text>
+  <path d="M463 137h29" stroke="#C1C9E2" stroke-opacity=".4" stroke-linecap="round"/>
+  <circle cx="463" cy="169" r="8" fill="#3D4F8B" stroke="#899AFF" stroke-opacity=".7"/>
+  <circle cx="486" cy="169" r="8" fill="#347D91" stroke="#7EE0E1" stroke-opacity=".7"/>
+  <circle cx="509" cy="169" r="8" fill="#8B76C8" stroke="#BCAEFF" stroke-opacity=".7"/>
+  <circle cx="572" cy="169" r="10" fill="#183E3E" stroke="#62D4C4" stroke-opacity=".72"/>
+  <path d="m568 169 3 3 6-7" stroke="#7AE0CF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="447" y="203" fill="#8496A7" font-family="Arial,sans-serif" font-size="8" letter-spacing="1">HUMAN REVIEW · AUDIT</text>
+  <path d="M144 254h352" stroke="#A8B5FF" stroke-opacity=".18"/>
+  <text x="320" y="270" text-anchor="middle" fill="#AEB8D6" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.35">CONTENT → POLICY → REVIEW</text>
+</svg>
