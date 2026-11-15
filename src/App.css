@@ -319,7 +319,7 @@ form button[type='submit']:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: min(76%, 340px);
+  width: min(86%, 420px);
   aspect-ratio: 1;
   transform: translate(-50%, -50%);
 }
@@ -346,33 +346,38 @@ form button[type='submit']:hover {
 }
 
 .hero-orbit__ring--inner {
-  inset: 20%;
+  inset: 6%;
   border-style: dashed;
   border-color: rgba(160, 199, 255, 0.27);
 }
 
 .hero-orbit__core {
   position: absolute;
+  z-index: 2;
   top: 50%;
   left: 50%;
   display: grid;
-  width: 34%;
+  width: 210px;
+  max-width: calc(100% - 24px);
   aspect-ratio: 1;
   place-items: center;
   transform: translate(-50%, -50%);
   border: 1px solid rgba(209, 219, 255, 0.55);
-  border-radius: 50%;
+  border-radius: 18px;
+  overflow: hidden;
   background:
     radial-gradient(circle at 30% 25%, rgba(205, 217, 255, 0.42), transparent 23%),
     radial-gradient(circle at 45% 45%, rgba(90, 113, 209, 0.55), rgba(23, 28, 52, 0.94) 67%);
   box-shadow: 0 0 42px rgba(100, 121, 231, 0.3), inset 0 0 28px rgba(178, 191, 255, 0.13);
 }
 
-.hero-orbit__core span {
-  color: #edf0ff;
-  font-family: 'Iowan Old Style', 'Baskerville Old Face', 'Times New Roman', serif;
-  font-size: clamp(1.7rem, 4vw, 2.5rem);
-  letter-spacing: -0.1em;
+.hero-orbit__portrait {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 17px;
+  object-fit: cover;
+  object-position: 50% 30%;
 }
 
 .hero-orbit__satellite {
@@ -1482,6 +1487,10 @@ footer button:hover {
     display: none !important;
   }
 
+  .hero-orbit__core {
+    width: 180px;
+  }
+
   .menu-toggle {
     display: inline-flex !important;
   }
@@ -1518,7 +1527,19 @@ footer button:hover {
   }
 
   .hero-orbit {
-    width: 80%;
+    width: min(94%, 320px);
+  }
+
+  .hero-orbit__ring--middle {
+    inset: 4%;
+  }
+
+  .hero-orbit__ring--inner {
+    inset: 5%;
+  }
+
+  .hero-orbit__core {
+    width: 170px;
   }
 
   .section-intro {
@@ -1570,6 +1591,15 @@ footer button:hover {
 
   .hero-orbit {
     width: min(76%, 290px);
+  }
+
+  .hero-orbit__ring--middle,
+  .hero-orbit__ring--inner {
+    inset: 2%;
+  }
+
+  .hero-orbit__core {
+    width: clamp(140px, 40vw, 165px);
   }
 
   .scroll-cue {

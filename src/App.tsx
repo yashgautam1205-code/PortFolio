@@ -319,8 +319,12 @@ function App() {
       <header className="sticky top-0 z-50 border-b border-white/10 bg-[#070b14]/70 backdrop-blur-xl">
         <nav aria-label="Primary navigation" className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
           <a href="#home" className="brand-mark group flex items-center gap-3 uppercase tracking-[0.28em] text-slate-200">
-            <span className="brand-monogram inline-flex h-9 w-9 items-center justify-center rounded-full border border-sky-400/40 bg-sky-400/10 text-[9px] font-semibold tracking-[-0.08em] text-sky-200">
-              YG
+            <span className="brand-monogram inline-flex h-9 w-9 items-center justify-center overflow-hidden rounded-full border border-sky-400/40 bg-sky-400/10 text-[9px] font-semibold tracking-[-0.08em] text-sky-200">
+              <img
+                src="/images/yash-gautam-profile.jpeg"
+                alt="Yash Gautam profile photograph"
+                className="h-full w-full object-cover object-[50%_30%]"
+              />
             </span>
             <span className="brand-name text-[10px] text-slate-200/80 sm:text-[11px]">Yash Gautam</span>
           </a>
@@ -446,19 +450,27 @@ function App() {
 
             <div className="hero-art-wrap relative">
               <div className="hero-glow absolute -inset-y-10 -inset-x-4 rounded-[32px] bg-[radial-gradient(circle,_rgba(96,165,250,0.21),transparent_58%)] blur-3xl" aria-hidden="true" />
-              <div className="hero-art" role="img" aria-label="Abstract orbital illustration representing connected ideas and technology">
+              <div className="hero-art" role="group" aria-label="Yash Gautam portrait in an abstract orbital illustration">
                 <div className="hero-art__topline">
                   <span>Y/G — SYSTEMS IN MOTION</span>
                   <span>01 / 04</span>
                 </div>
                 <div className="hero-orbit">
-                  <div className="hero-orbit__ring hero-orbit__ring--outer" />
-                  <div className="hero-orbit__ring hero-orbit__ring--middle" />
-                  <div className="hero-orbit__ring hero-orbit__ring--inner" />
-                  <div className="hero-orbit__core"><span>YG</span></div>
-                  <span className="hero-orbit__satellite hero-orbit__satellite--one" />
-                  <span className="hero-orbit__satellite hero-orbit__satellite--two" />
-                  <span className="hero-orbit__satellite hero-orbit__satellite--three" />
+                  <div className="hero-orbit__ring hero-orbit__ring--outer" aria-hidden="true" />
+                  <div className="hero-orbit__ring hero-orbit__ring--middle" aria-hidden="true" />
+                  <div className="hero-orbit__ring hero-orbit__ring--inner" aria-hidden="true" />
+                  <div className="hero-orbit__core">
+                    <img
+                      src="/images/yash-gautam-portrait.webp"
+                      alt="Portrait of Yash Gautam"
+                      width="768"
+                      height="1024"
+                      className="hero-orbit__portrait"
+                    />
+                  </div>
+                  <span className="hero-orbit__satellite hero-orbit__satellite--one" aria-hidden="true" />
+                  <span className="hero-orbit__satellite hero-orbit__satellite--two" aria-hidden="true" />
+                  <span className="hero-orbit__satellite hero-orbit__satellite--three" aria-hidden="true" />
                 </div>
                 <div className="hero-art__caption">
                   <span>Ideas, engineered<br />into experiences.</span>
